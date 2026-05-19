@@ -23,7 +23,7 @@ export default function Contact() {
     e.preventDefault();
     setSubmitStatus('submitting');
 
-    const API_URL = import.meta.env.VITE_API_URL || 'https://c2cbackend-hi04.onrender.com';
+    const API_URL = 'https://c2cbackend-hi04.onrender.com';
     try {
       const response = await fetch(`${API_URL}/api/enroll`, {
         method: 'POST',
@@ -105,7 +105,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          
+
           <div className="contact-form">
             <h3 style={{ color: '#fff', fontFamily: "'Syne', sans-serif", fontSize: '1.2rem', marginBottom: '1.5rem' }}>
               Book a Free Demo Class
