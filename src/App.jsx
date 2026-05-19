@@ -12,7 +12,6 @@ import Placements from './components/Placements';
 import Process from './components/Process';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import FloatingCTA from './components/FloatingCTA';
 
 function App() {
   useEffect(() => {
@@ -57,7 +56,7 @@ function App() {
       <Process />
       <Contact />
       <Footer />
-      <FloatingCTA />
+     
     </>
   );
 }

@@ -108,7 +108,7 @@ export default function Contact() {
 
           <div className="contact-form">
             <h3 style={{ color: '#fff', fontFamily: "'Syne', sans-serif", fontSize: '1.2rem', marginBottom: '1.5rem' }}>
-              Book a Free Demo Class
+             
             </h3>
             <form onSubmit={handleSubmit}>
               <div className="form-row">
