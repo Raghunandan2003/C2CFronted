@@ -23,7 +23,7 @@ export default function Contact() {
     e.preventDefault();
     setSubmitStatus('submitting');
 
-    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+    const API_URL = import.meta.env.VITE_API_URL || 'https://c2cbackend-hi04.onrender.com';
     try {
       const response = await fetch(`${API_URL}/api/enroll`, {
         method: 'POST',
